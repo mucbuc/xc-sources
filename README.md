@@ -4,7 +4,8 @@
 `npm install xc-sources`
 
 ### usage
-```Usage: xc-sources --project [project] --scheme [scheme] --arch [arch]
+```
+Usage: xc-sources --project [project] --scheme [scheme] --arch [arch]
 
 Options:
   --help     Show help                                                 [boolean]

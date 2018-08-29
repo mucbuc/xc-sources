@@ -11,4 +11,5 @@ Options:
   --version  Show version number                                       [boolean]
   --project                                                           [required]
   --scheme                                                            [required]
-  --arch                                                      [default: "arm64"]```
+  --arch                                                      [default: "arm64"]
+  ```

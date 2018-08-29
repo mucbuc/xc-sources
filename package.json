@@ -11,5 +11,8 @@
   "dependencies": {
     "runjs": "^4.3.2",
     "yargs": "^12.0.1"
+  },
+  "bin" : {
+    "xc-sources": "node index.js"
   }
 }

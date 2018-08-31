@@ -9,7 +9,7 @@ const cp = require("child_process"),
 cp.exec(
   `xcodebuild -dry-run -project ${argv.project} -scheme ${argv.scheme} ARCH=${
     argv.arch
-  }`,
+  } ONLY_ACTIVE_ARCH=NO`,
   { stdio: "pipe" },
   (error, stdout, stderr) => {
     var match,
